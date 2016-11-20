@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lightningstudio.qrcodescanner.MainActivity"
+    >
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blueee"/>
+
+        <TextView
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:text="Token Friend"
+            android:textColor="#89CFF0"
+            android:textSize="90px"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="100px"/>
+
+        <TextView
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:id="@+id/textView3"
+            android:textColor="#FFEB38"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@+id/password"
+            android:layout_alignBottom="@+id/password"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/accountid"
+            android:layout_width="350px"
+            android:layout_height="wrap_content"
+            android:hint="Account ID"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#fefefe"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/login_btn"
+            android:layout_alignStart="@+id/login_btn" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350px"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_marginBottom="32dp"
+            android:textColorHint="#fefefe"
+            android:layout_above="@+id/login_btn"
+            android:layout_alignLeft="@+id/accountid"
+            android:layout_alignStart="@+id/accountid" />
+
+        <TextView
+            android:layout_width="170px"
+            android:layout_height="wrap_content"
+            android:text="Account:"
+            android:id="@+id/textView2"
+            android:textColor="#FFEB38"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"
+            android:layout_above="@+id/password"
+            android:layout_toLeftOf="@+id/checkBox"
+            android:layout_toStartOf="@+id/checkBox"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay logged in"
+            android:textColor="#fefefe"
+            android:buttonTint="#fefefe"
+            android:layout_marginBottom="43dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_btn"
+            android:text="Login"
+            android:layout_above="@+id/checkBox"
+            android:layout_centerHorizontal="true"
+            android:background="#89CFF0"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/token_friend_logo2"
+            android:id="@+id/imageView2"
+            android:layout_marginBottom="81dp"
+            android:layout_above="@+id/accountid"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>

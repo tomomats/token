@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Token Friend</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_generator">Token Friend</string>
+    <string name="title_activity_main_page_token_friend">Token</string>
+    <string name="title_activity_navigation_bar">NavigationBar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_navigation_page">NavigationPage</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_token_page">TokenPage</string>
+    <string name="title_activity_token_settings">tokenSettings</string>
+    <string name="title_activity_account">Account</string>
+    <string name="title_activity_balance">Balance</string>
+    <string name="title_activity_create_token_friend">CreateTokenFriend</string>
+    <string name="title_activity_delete_token">DeleteToken</string>
+</resources>

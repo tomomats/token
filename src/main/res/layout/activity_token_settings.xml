@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lightningstudio.qrcodescanner.tokenSettings">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blueee"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="50px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textColor="#FFEB38"
+        />
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:id="@+id/logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/delete"
+        android:layout_alignStart="@+id/delete"
+        android:layout_marginBottom="52dp"
+        android:background="#89CFF0"/>
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="Delete Token Friend"
+        android:id="@+id/delete"
+        android:layout_above="@+id/logout"
+        android:layout_alignLeft="@+id/create"
+        android:layout_alignStart="@+id/create"
+        android:layout_marginBottom="40dp"
+        android:background="#89CFF0"
+        android:paddingLeft="5px"
+        android:paddingRight="5px"/>
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="Create Token Friend"
+        android:id="@+id/create"
+        android:layout_above="@+id/delete"
+        android:layout_alignLeft="@+id/balance"
+        android:layout_alignStart="@+id/balance"
+        android:layout_marginBottom="37dp"
+        android:background="#89CFF0"/>
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="Balance"
+        android:id="@+id/balance"
+        android:layout_above="@+id/create"
+        android:layout_alignLeft="@+id/account"
+        android:layout_alignStart="@+id/account"
+        android:layout_marginBottom="29dp"
+        android:background="#89CFF0"/>
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:id="@+id/account"
+        android:layout_above="@+id/balance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:background="#89CFF0"/>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lightningstudio.qrcodescanner">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".QRScannerActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Generator"
+            android:label="@string/title_activity_generator" />
+        <activity
+            android:name=".MainPageTokenFriend"
+            android:label="@string/title_activity_main_page_token_friend" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationPage"
+            android:label="@string/title_activity_navigation_page" />
+        <activity
+            android:name=".TokenPage"
+            android:label="@string/title_activity_token_page" />
+        <activity
+            android:name=".tokenSettings"
+            android:label="@string/title_activity_token_settings" />
+        <activity
+            android:name=".Account"
+            android:label="@string/title_activity_account" />
+        <activity
+            android:name=".Balance"
+            android:label="@string/title_activity_balance" />
+        <activity
+            android:name=".CreateTokenFriend"
+            android:label="@string/title_activity_create_token_friend" />
+        <activity
+            android:name=".DeleteToken"
+            android:label="@string/title_activity_delete_token"></activity>
+    </application>
+
+</manifest>
