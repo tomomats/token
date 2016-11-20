@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_41a50ff1de46d1b74370e6da002f610a56c331e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d4ce6303165f20650850673bd5891fbcca80caae">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.journeyapps-zxing-android-embedded-3.2.0_e95cd4631fd72494c37de30d781d248d28634c01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-21.0.3_31c868433b1e6a38f2dd1c94433cf9d186b331af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="951759f884f85bfa979d4e29b40cde0de93a3c0a">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_92361d5e7705c17121ea03aefff93c1a48fc5f41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_c5fdfa0cc21710190dca5d86c053e13ae9c5bf53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_81703bdcc46aef5102a11c8f17252e4504b7aea1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_d216b12f0de1be60281a6d7e34da4bf1d1754cab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1871fb7965361ac0f1fc780272ce17c2cbbd136e">
+        <dex dex="/Users/tomo/Downloads/QRCodeScanner 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e28030763f4115b0160d8aea50072b01e48f884f/classes.dex" />
+    </item>
+
+</items>
